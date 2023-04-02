@@ -1,0 +1,16 @@
+{
+    "name": "idane/task04",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": ["src/checkIfBalanced.php", "src/Test.php"]
+    },
+    "authors": [
+        {
+            "name": "1D4n3",
+            "email": "125080408+1D4n3@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
