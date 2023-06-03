@@ -1,0 +1,17 @@
+{
+    "name": "idane/task06_2",
+    "autoload": {
+        "psr-4": {
+            "Idane\\Task062\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "1D4n3",
+            "email": "125080408+1D4n3@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}

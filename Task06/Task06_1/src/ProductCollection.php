@@ -19,6 +19,11 @@ class ProductCollection
         //@TODO используя вызов $filterStrategy->filter()
         // ===================================
 
+        foreach ($this->products as $key => $value) {
+            if ($filterStrategy->filter($value)) {
+                $filteredProducts[] = $value;
+            }
+        }
         return new ProductCollection($filteredProducts);
     }
 
